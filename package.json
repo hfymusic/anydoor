@@ -1,0 +1,44 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "a test",
+  "main": "src/app.js",
+  "bin": {
+    "anydoor": "bin/anydoor"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hfymusic/anydoor.git"
+  },
+  "keywords": [
+    "this",
+    "is",
+    "my",
+    "work"
+  ],
+  "author": "huangfy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hfymusic/anydoor/issues"
+  },
+  "homepage": "https://github.com/hfymusic/anydoor#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "handlebars": "^4.0.11",
+    "yargs": "^11.0.0"
+  }
+}
