@@ -1,7 +1,7 @@
 {
-  "name": "anydoor",
+  "name": "anydoor_19",
   "version": "0.1.1",
-  "description": "a test",
+  "description": "本地构建静态资源服务器",
   "main": "src/app.js",
   "bin": {
     "anydoor": "bin/anydoor"
